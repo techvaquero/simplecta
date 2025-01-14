@@ -1,3 +1,3 @@
 
 select
-    * from prodrs.finance.customers
+    * from prodrs.finance.nations
