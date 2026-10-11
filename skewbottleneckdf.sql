@@ -15,5 +15,5 @@ select
 /*+ SHUFFLE_HASH(ss) */
 *
 from storesales ss
-join tpcds.sf_10000.item it
+join zhenghu.nvidia_tpcds_sf3000.item it
 on ss.newjk = it.i_item_sk
