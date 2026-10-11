@@ -1,6 +1,6 @@
 -- Databricks notebook source
 SET spark.sql.shuffle.partitions = 200;
-create external table rstest.roberto_salcido.sptest
+create or replace table rstest.roberto_salcido.sptest
 location "s3://us-east-1-dev-account-staging-uc-ext-loc-bucket-2/abhijit_test2/perfrs/sptest"
 
 as
