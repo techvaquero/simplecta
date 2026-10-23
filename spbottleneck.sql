@@ -1,7 +1,7 @@
 -- Databricks notebook source
 SET spark.sql.shuffle.partitions = 200;
 
-create or replace table users.roberto_salcido.sptest
+create or replace table rstest.roberto_salcido.sptest
 as
 
 with websales (
