@@ -1,5 +1,5 @@
 -- Databricks notebook source
-create or replace table users.roberto_salcido.skewtest
+create or replace table rstest.roberto_salcido.skewtest
 as 
 
 with storesales (
